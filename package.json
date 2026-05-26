@@ -1,0 +1,16 @@
+{
+  "name": "magic-8-ball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "8ball.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "simpledotcss": "^2.3.7"
+  }
+}
