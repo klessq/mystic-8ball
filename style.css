@@ -1,3 +1,6 @@
+body {  
+    background: red;
+}
 .eight-ball {
   text-align: center;
   display: flex;
