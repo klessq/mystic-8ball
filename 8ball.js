@@ -62,7 +62,7 @@ function getBallPhrase() {
 }
 
 const button = document.getElementById("shake-btn");
-const answer = document.getElemenyById("answer");
+const answer = document.getElementById("answer");
 
 button.addEventListener("click", function() {
     answer.textContent = getBallPhrase();
