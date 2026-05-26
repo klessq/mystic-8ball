@@ -18,8 +18,8 @@
 }
 
 .answer {
-  width: 300px !important;
-  height: 300px !important;
+  width: 180px !important;
+  height: 180px !important;
   border-radius: 50%;
   background: radial-gradient(circle, #3b82f6, #111166);
   border: 8px solid #6ea8ff;
