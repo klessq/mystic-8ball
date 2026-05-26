@@ -16,7 +16,7 @@
 .answer {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+  border-radius: 25%;
   background: #111166;
   color: white;
   display: flex;
