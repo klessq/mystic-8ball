@@ -59,3 +59,4 @@ function getBallPhrase() {
     max = phrases.length - 1;
     return phrases[randNumGen(0, max)];
 }
+
