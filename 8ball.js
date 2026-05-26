@@ -62,8 +62,8 @@ function getBallPhrase() {
 
 const button = document.getElementById("shake-btn");
 
-button.addEventListener("click", function()) {
+button.addEventListener("click", function() {
     const randomPhrase = getBallPhrase();
 
     answerElement.textContent = randomPhrase;
-}
+});
