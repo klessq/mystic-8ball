@@ -1,10 +1,5 @@
 /* Code */
 
-// Random Number Generator
-function randNumGen(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
-}
-
 // Magic 8-Ball array of phrases
 const phrases = [
     // Default Responses
@@ -55,6 +50,12 @@ const phrases = [
     "For best result, put me in your ass.",
 ];
 
+// Random Number Generator
+function randNumGen(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+// Phrase Getter
 function getBallPhrase() {
     max = phrases.length - 1;
     return phrases[randNumGen(0, max)];
@@ -64,5 +65,5 @@ const button = document.getElementById("shake-btn");
 const answer = document.getElemenyById("answer");
 
 button.addEventListener("click", function() {
-    answer.textContent = randomPhrase;
+    answer.textContent = getBallPhrase();
 });
