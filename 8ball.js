@@ -60,3 +60,10 @@ function getBallPhrase() {
     return phrases[randNumGen(0, max)];
 }
 
+const button = document.getElementById("shake-btn");
+
+button.addEventListener("click", function()) {
+    const randomPhrase = getBallPhrase();
+
+    answerElement.textContent = randomPhrase;
+}
